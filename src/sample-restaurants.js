@@ -1,21 +1,25 @@
-// Наши рестораны
-const restaurants = [
+const shops = [
   {
-    title: 'Hot Burger Тверская',
-    url: 'hot-burger-tverskaya',
-    id: 1
+    title: "Cool Guitar Київ",
+    url: "cool-guitar-kyiv",
+    id: 1,
   },
 
   {
-    title: 'Hot Burger Маросейка',
-    url: 'hot-burger-maroseyka',
-    id: 2
+    title: "Cool Guitar Харків",
+    url: "cool-guitar-kharkiv",
+    id: 2,
   },
   {
-    title: 'Hot Burger Петровка',
-    url: 'hot-burger-petrovka',
-    id: 3
-  }
+    title: "Cool Guitar Полтава",
+    url: "cool-guitar-poltava",
+    id: 3,
+  },
+  {
+    title: "Cool Guitar Миколаїв",
+    url: "cool-guitar-mykolaiv",
+    id: 4,
+  },
 ];
 
-export default restaurants;
+export default shops;
