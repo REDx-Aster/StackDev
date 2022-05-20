@@ -1,14 +1,13 @@
-import Rebase from "re-base";
-import firebase from "firebase/app";
-import { database } from "firebase/database";
-import { auth } from "firebase/auth";
+import Rebase from 're-base';
+import firebase from 'firebase/app';
+import { database } from 'firebase/database';
+import { auth } from 'firebase/auth';
 // require("firebase/database");
 
 const firebaseApp = firebase.initializeApp({
-  apiKey: "AIzaSyB_lSP3kzxeEtAy62qLQ2t7vsGkg_BXmQI",
-  authDomain: "cool-guitar.firebaseapp.com",
-  databaseURL:
-    "https://cool-guitar-default-rtdb.europe-west1.firebasedatabase.app",
+  apiKey: 'AIzaSyB_lSP3kzxeEtAy62qLQ2t7vsGkg_BXmQI',
+  authDomain: 'guitar-shop-nine.vercel.app',
+  databaseURL: 'https://cool-guitar-default-rtdb.europe-west1.firebasedatabase.app',
   //   projectId: "cool-guitar",
   //   storageBucket: "cool-guitar.appspot.com",
   //   messagingSenderId: "634869507934",
